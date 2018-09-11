@@ -1,0 +1,18 @@
+{
+  "ignore": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    ".git",
+    "node_modules"
+  ],
+  "watch": [
+    "src",
+    "bin"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "signal": "SIGHUP",
+  "exec": "npm run dev",
+  "ext": "ts"
+}

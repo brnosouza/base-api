@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": false,
+    "noUnusedLocals": true,
+    "pretty": false,
+    "skipLibCheck": true,
+    "declaration": false,
+    "outDir": "build/"
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+  ]
+}
